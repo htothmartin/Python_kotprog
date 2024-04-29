@@ -1,0 +1,109 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "game/assets/levels/01.tmx",
+    "expandedProjectPaths": [
+        "game",
+        "game/assets/levels",
+        ".",
+        "game/assets"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "/tmp/xa-HHL9L2/basic.tmx": {
+            "scale": 0.555712890625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.95501274053254,
+                "y": 511.9550127405325
+            }
+        },
+        "/tmp/xa-HHL9L2/basic.tmx#basic": {
+            "scaleInDock": 1
+        },
+        "/tmp/xa-HHL9L2/windrise-background.tsx": {
+            "scaleInDock": 1
+        },
+        "game/assets/TressAndGrass.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "game/assets/levels/01.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 1.1245,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 293.4637616718541,
+                "y": 982.214317474433
+            }
+        },
+        "game/assets/levels/TreesAndGrass.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "game/assets/levels/TressAndGrass.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "game/assets/levels/first-map.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 1.1245,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1678.9684304135171,
+                "y": 175.63361493997334
+            }
+        },
+        "game/assets/levels/tilesetgrass.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "game/first-map.tmx": {
+            "scale": 1.2079,
+            "selectedLayer": -1,
+            "viewCenter": {
+                "x": 233.8769765709082,
+                "y": 75.75130391588709
+            }
+        },
+        "tilesetgrass.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "/home/martin/Documents/Python_kotprog/Pixel Art Grassland Tileset 32x32",
+    "map.height": 23,
+    "map.lastUsedFormat": "tmx",
+    "map.width": 80,
+    "openFiles": [
+        "game/assets/levels/tilesetgrass.tsx",
+        "game/assets/levels/01.tmx",
+        "game/assets/levels/TreesAndGrass.tsx"
+    ],
+    "project": "platfromer_map.tiled-project",
+    "property.type": "string",
+    "recentFiles": [
+        "game/assets/levels/tilesetgrass.tsx",
+        "game/assets/levels/TreesAndGrass.tsx",
+        "game/assets/levels/01.tmx",
+        "game/assets/levels/first-map.tmx",
+        "game/assets/levels/TressAndGrass.tsx",
+        "/tmp/xa-HHL9L2/basic.tmx",
+        "game/assets/TressAndGrass.tsx",
+        "tilesetgrass.tsx",
+        "game/first-map.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.type": 1
+}
