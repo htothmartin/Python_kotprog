@@ -5,10 +5,10 @@
     },
     "activeFile": "game/assets/levels/01.tmx",
     "expandedProjectPaths": [
-        "game",
-        "game/assets/levels",
         ".",
-        "game/assets"
+        "game/assets",
+        "game/assets/levels",
+        "game"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -35,11 +35,11 @@
             "expandedObjectLayers": [
                 4
             ],
-            "scale": 1.1245,
+            "scale": 0.7208,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 293.4637616718541,
-                "y": 982.214317474433
+                "x": 2602.663706992231,
+                "y": 1064.7891231964484
             }
         },
         "game/assets/levels/TreesAndGrass.tsx": {
@@ -59,8 +59,8 @@
             "scale": 1.1245,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 1678.9684304135171,
-                "y": 175.63361493997334
+                "x": 1678.0791462872385,
+                "y": 255.6691863050244
             }
         },
         "game/assets/levels/tilesetgrass.tsx": {
@@ -82,22 +82,22 @@
             "scaleInEditor": 1
         }
     },
-    "last.imagePath": "/home/martin/Documents/Python_kotprog/Pixel Art Grassland Tileset 32x32",
+    "last.imagePath": "/home/martin/Documents/Python_kotprog/assets/Pixel Art Grassland Tileset 32x32",
     "map.height": 23,
     "map.lastUsedFormat": "tmx",
     "map.width": 80,
     "openFiles": [
         "game/assets/levels/tilesetgrass.tsx",
         "game/assets/levels/01.tmx",
-        "game/assets/levels/TreesAndGrass.tsx"
+        "game/assets/levels/first-map.tmx"
     ],
     "project": "platfromer_map.tiled-project",
     "property.type": "string",
     "recentFiles": [
         "game/assets/levels/tilesetgrass.tsx",
-        "game/assets/levels/TreesAndGrass.tsx",
-        "game/assets/levels/01.tmx",
         "game/assets/levels/first-map.tmx",
+        "game/assets/levels/01.tmx",
+        "game/assets/levels/TreesAndGrass.tsx",
         "game/assets/levels/TressAndGrass.tsx",
         "/tmp/xa-HHL9L2/basic.tmx",
         "game/assets/TressAndGrass.tsx",
