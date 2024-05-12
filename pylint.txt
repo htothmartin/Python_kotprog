@@ -1,0 +1,54 @@
+************* Module skyblockgame.game.code.data
+data.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+data.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+************* Module skyblockgame.game.code.sprites
+sprites.py:8:0: C0115: Missing class docstring (missing-class-docstring)
+sprites.py:8:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+sprites.py:19:0: C0115: Missing class docstring (missing-class-docstring)
+sprites.py:40:0: C0115: Missing class docstring (missing-class-docstring)
+sprites.py:47:21: W0613: Unused argument 'dt' (unused-argument)
+sprites.py:40:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+sprites.py:53:0: C0115: Missing class docstring (missing-class-docstring)
+sprites.py:88:0: C0115: Missing class docstring (missing-class-docstring)
+sprites.py:88:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+************* Module skyblockgame.game.code.enemies
+enemies.py:9:0: C0115: Missing class docstring (missing-class-docstring)
+************* Module skyblockgame.game.code.main
+main.py:39:0: C0301: Line too long (129/120) (line-too-long)
+main.py:80:0: C0305: Trailing newlines (trailing-newlines)
+main.py:14:0: C0115: Missing class docstring (missing-class-docstring)
+************* Module skyblockgame.game.code.groups
+groups.py:51:0: C0301: Line too long (130/120) (line-too-long)
+groups.py:52:0: C0301: Line too long (131/120) (line-too-long)
+groups.py:7:0: C0115: Missing class docstring (missing-class-docstring)
+************* Module skyblockgame.game.code.timer
+timer.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+************* Module skyblockgame.game.code.level
+level.py:109:0: C0301: Line too long (124/120) (line-too-long)
+level.py:110:0: C0301: Line too long (129/120) (line-too-long)
+level.py:10:0: C0115: Missing class docstring (missing-class-docstring)
+************* Module skyblockgame.game.code.player
+player.py:10:0: C0115: Missing class docstring (missing-class-docstring)
+player.py:186:8: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+************* Module skyblockgame.game.code.utils
+utils.py:29:34: W0622: Redefining built-in 'format' (redefined-builtin)
+utils.py:1:0: R0801: Similar lines in 2 files
+==skyblockgame.game.code.enemies:[67:81]
+==skyblockgame.game.code.player:[213:226]
+        if not self.timers['damage'].active:
+            self.timers['damage'].activate()
+            self.health -= 1
+
+    # Sérülés animáció
+    def flick(self):
+        if self.timers['damage'].active and math.sin(pygame.time.get_ticks() * 200) > 0:
+            mask = pygame.mask.from_surface(self.image)
+            mask = mask.to_surface()
+            mask.set_colorkey((0, 0, 0))
+            self.image = mask
+
+    def update(self, dt): (duplicate-code)
+
+------------------------------------------------------------------
+Your code has been rated at 9.54/10 (previous run: 9.54/10, +0.00)
+

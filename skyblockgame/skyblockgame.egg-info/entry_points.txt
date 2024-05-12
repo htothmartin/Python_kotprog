@@ -1,0 +1,2 @@
+[console_scripts]
+skyblockgame = game.code.main:start

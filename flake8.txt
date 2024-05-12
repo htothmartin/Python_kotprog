@@ -1,0 +1,13 @@
+./data.py:4:1: E302 expected 2 blank lines, found 1
+./groups.py:7:1: E302 expected 2 blank lines, found 1
+./groups.py:51:121: E501 line too long (130 > 120 characters)
+./groups.py:52:121: E501 line too long (131 > 120 characters)
+./level.py:10:1: E302 expected 2 blank lines, found 1
+./level.py:109:121: E501 line too long (124 > 120 characters)
+./level.py:110:121: E501 line too long (129 > 120 characters)
+./level.py:111:13: E128 continuation line under-indented for visual indent
+./main.py:39:121: E501 line too long (129 > 120 characters)
+./main.py:73:1: E302 expected 2 blank lines, found 1
+./main.py:80:1: W391 blank line at end of file
+./player.py:80:9: E303 too many blank lines (2)
+./sprites.py:88:1: E302 expected 2 blank lines, found 1
