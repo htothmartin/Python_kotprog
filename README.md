@@ -24,4 +24,4 @@ A játék elindítása után a space-el lehet elindítani. A játékos 5 életer
 
 ## Telepítés
 
-### A `pip install skyblockgame-1.0.tar.gz` parancsal lehetésges. A telepítés befejezésével a `skyblockgame` parancs konzolon való futtatásával indíható el.
+### A `pip install skyblockgame-1.0.tar.gz` parancsal lehetésges. A telepítés befejezésével a `skyblockgame` parancs konzolon való futtatásával indíható el linuxon vagy Windows-on a telepítés után a `python3 -m game.code.main`-el lehetséges.
